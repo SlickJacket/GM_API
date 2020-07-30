@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :friendships
   resources :action_infos
   resources :actions
   resources :stats
